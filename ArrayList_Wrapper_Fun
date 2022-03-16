@@ -1,0 +1,32 @@
+// Wrapper Class is used for Primitive ArrayList
+// Byte,short,int,long,float,double,character,boolean
+
+
+package Array_ArrayList;
+
+import java.util.ArrayList;
+
+public class WrapperFun {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Integer> myAL = new ArrayList<>();
+		
+		myAL.add(10);
+		myAL.add(20);
+		
+		for(int i=0; i<myAL.size(); i++) {
+			
+			int num = myAL.get(i);
+			System.out.println(num);
+			
+		}
+		
+		//String to Int
+		String n = "3";
+		int a = Integer.parseInt(n);
+		System.out.println(a);
+		
+	}
+
+}
