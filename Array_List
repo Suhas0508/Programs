@@ -1,6 +1,11 @@
 //ArrayList can resize 
 //ArrayList only holds referance type not premetive type
 
+// So what to do about primitives???
+	// So for that we use Wrapper class  
+	// I have created that in same directory 
+	// fileName:Array_List_Wrapper 
+
 package Array_ArrayList;
 import java.util.ArrayList;
 
